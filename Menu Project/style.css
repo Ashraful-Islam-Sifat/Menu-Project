@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.items_center{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.underline{
+    color: goldenrod;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.filter_btn{
+    background: transparent;
+    border: 1px solid rgb(183, 131, 0);
+    color: rgb(183, 131, 0);
+    padding: 3px 5px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    width: 60vw;
+}
+
+.image{
+    width: 200px;
+    border: 3px solid rgb(183, 131, 0);
+    border-radius: 7px;
+}
+
+.items{
+    display: flex;
+    gap: 1rem;
+}
+
+.text-content{
+    width: 280px;
+}
+
+.top_area{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: gray 1px solid;
+    padding-bottom: 5px;
+}
+
+.item-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.price{
+    color: rgb(183, 131, 0);
+    letter-spacing: 2px;
+}
+
+.discription{
+    color: grey;
+    margin-top: 10px;
+}
